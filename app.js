@@ -1,7 +1,13 @@
-/** Using JQuery
- create a list that takes in two inputs (title of movie, rating (1-10))
- when you click submit the values will be apended a list and a delete button will also be created and when clicked it will delete the entire row (deletes both title and rating)
- */
+/*
+Using JQuery Build an application that uses jQuery to do the following:
+
+1. Contains a form with two inputs for a title and rating along with a button to submit the form.
+
+2. When the form is submitted, capture the values for each of the inputs and append them to the DOM along with a button to remove each title and rating from the DOM.
+
+3. When the button to remove is clicked, remove each title and rating from the DOM.
+
+*/
 
 $(document).ready(function () {
   $("#movie-form").on("submit", function (evt) {
